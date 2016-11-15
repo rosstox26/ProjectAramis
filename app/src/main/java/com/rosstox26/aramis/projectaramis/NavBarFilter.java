@@ -1,13 +1,13 @@
 package com.rosstox26.aramis.projectaramis;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class Tutorial extends AppCompatActivity {
+public class NavBarFilter extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tutorial);
+        setContentView(R.layout.activity_nav_bar_filter);
     }
 }

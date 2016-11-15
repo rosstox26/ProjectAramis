@@ -16,16 +16,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".RegistrationActivity" />
-        <activity android:name=".RegistrationActivity_EnterInfo" />
-        <activity android:name=".Tutorial" />
-        <activity android:name=".TermsConditions" />
-        <activity android:name=".MainFeed" />
-        <activity android:name=".NavBar_MapView" />
-        <activity android:name=".NavBar_Filter" />
         <activity android:name=".BusinessActivity" />
-        <activity android:name=".Profile" />
-        <activity android:name=".MissionActivity"></activity>
+        <activity android:name=".FeedActivity" />
+        <activity android:name=".NavBarFilter" />
+        <activity android:name=".MissionActivity" />
+        <activity android:name=".NavBarMapView" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".RegistrationManual" />
+        <activity android:name=".TermsConditions" />
+        <activity android:name=".TutorialActivity"></activity>
     </application>
 
 </manifest>

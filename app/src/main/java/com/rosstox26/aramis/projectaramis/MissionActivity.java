@@ -1,9 +1,9 @@
 package com.rosstox26.aramis.projectaramis;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class MissionActivity extends AppCompatActivity {
+public class MissionActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
