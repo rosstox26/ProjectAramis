@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app2=""
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
@@ -9,5 +11,69 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.rosstox26.aramis.projectaramis.LoginActivity">
+
+    <TextView
+        android:text="LOGO "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:id="@+id/textView4"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Username"
+        android:ems="10"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="42dp"
+        android:id="@+id/editTextUsername" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Password"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/editTextUsername"
+        android:layout_alignStart="@+id/editTextUsername"
+        android:id="@+id/editTextPassword" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/buttonLogin"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Get help signing in. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLogin"
+        android:id="@+id/buttonHelp"
+        android:layout_toRightOf="@+id/textView5" />
+
+    <TextView
+        android:text="Forgot your login details?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/buttonHelp"
+        android:layout_alignBottom="@+id/buttonHelp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

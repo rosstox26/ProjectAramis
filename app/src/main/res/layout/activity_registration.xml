@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_registration"
     android:layout_width="match_parent"
@@ -9,5 +10,70 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.rosstox26.aramis.projectaramis.RegistrationActivity">
+
+    <TextView
+        android:text="LOGO AND WELCOME MESSAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:id="@+id/textViewLogo"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:id="@+id/button2"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Sign Up With Facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/buttonRegister"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_dark" />
+
+    <Button
+        android:text="Sign In. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSignIn"
+        android:background="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        android:layout_alignBaseline="@+id/textViewAlready"
+        android:layout_alignBottom="@+id/textViewAlready"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:text="Already have an account?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAlready"
+        android:textSize="22sp"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp" />
 
 </RelativeLayout>
