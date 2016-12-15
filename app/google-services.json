@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "433827805778",
+    "firebase_url": "https://final-project-1de0c.firebaseio.com",
+    "project_id": "final-project-1de0c",
+    "storage_bucket": "final-project-1de0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433827805778:android:4b3a54ceb931b0ef",
+        "android_client_info": {
+          "package_name": "com.rosstox26.aramis.projectaramis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433827805778-h6285emvd04s23p9tbsnfg10h21tca7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdclmundKBe1ukIuZOFb0p56UlE94tLUI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433827805778-h6285emvd04s23p9tbsnfg10h21tca7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
