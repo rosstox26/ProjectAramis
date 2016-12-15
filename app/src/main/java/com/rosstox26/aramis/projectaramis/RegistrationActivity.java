@@ -1,9 +1,9 @@
 package com.rosstox26.aramis.projectaramis;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class RegistrationActivity extends AppCompatActivity {
+public class RegistrationActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

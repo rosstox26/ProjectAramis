@@ -8,6 +8,46 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.rosstox26.aramis.projectaramis.TermsConditions">
+
+    <TextView
+        android:text="These are our terms and conditions. Please click the check box below!"
+        android:layout_width="353dp"
+        android:layout_height="375dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textViewTerms"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/buttonBack"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Continue"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/buttonContinue"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:text="I accept the above terms and conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/checkBoxAccept"
+        android:layout_below="@+id/textViewTerms"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>

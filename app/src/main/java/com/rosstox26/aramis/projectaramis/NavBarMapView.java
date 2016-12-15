@@ -1,13 +1,13 @@
 package com.rosstox26.aramis.projectaramis;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class NavBar_MapView extends AppCompatActivity {
+public class NavBarMapView extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nav_bar__map_view);
+        setContentView(R.layout.activity_nav_bar_map_view);
     }
 }
