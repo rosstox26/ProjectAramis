@@ -12,7 +12,7 @@
     tools:context="com.rosstox26.aramis.projectaramis.TermsConditions">
 
     <TextView
-        android:text="Write terms here"
+        android:text="These are our terms and conditions. Please click the check box below!"
         android:layout_width="353dp"
         android:layout_height="375dp"
         android:layout_alignParentTop="true"
@@ -23,10 +23,10 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="Go Back"
+        android:text="Back"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:id="@+id/goBackButton"
+        android:id="@+id/buttonBack"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -35,7 +35,7 @@
         android:text="Continue"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:id="@+id/continueButton"
+        android:id="@+id/buttonContinue"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="11dp"
-        android:id="@+id/acceptTermsCheckBox"
+        android:id="@+id/checkBoxAccept"
         android:layout_below="@+id/textViewTerms"
         android:layout_centerHorizontal="true" />
 

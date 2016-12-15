@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ProjectAramis</string>
+    <string name="title_activity_map_view">Map</string>
 </resources>
